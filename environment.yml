@@ -24,4 +24,5 @@ dependencies:
     - polars
     - dbt-duckdb
     - jupysql
+    - itable
 prefix: /opt/conda/envs/datathinking.org
