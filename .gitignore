@@ -3,3 +3,5 @@ notebooks/cifar_net.pth
 .ipynb_checkpoints/
 .DS_Store
 data/happy-planet-index.xlsx
+
+/scratch/

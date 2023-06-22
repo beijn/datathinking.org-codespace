@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "datathinking-org-codespace"
+version = "0.1.0"
+description = "Codespace for course Datathinking @ Ut 2023"
+authors = ["Benjamin Eckhardt <105940600+beijn@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "datathinking"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+itables = "^1.5.2"
+ipykernel = "^6.22.0"
+polars = "^0.17.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
